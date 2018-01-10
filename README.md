@@ -1,6 +1,6 @@
 # The Party Model
 
-This is an experimental model I developed during the christmas break. It is still a beta version, and I need to add a lot of features. <br>
+This is an experimental model I developed during the christmas break. It is still a beta version, and I need to add a lot of features.
 The model is based on the following rules:
 
  > 0. AGENTS GO TO A PARTY
@@ -13,5 +13,5 @@ The model is based on the following rules:
  > TO ADD: 
  > * BEHAVIOUR OF THE AGENTS WHEN THERE IS A CONCERT GOING ON. AGENTS WILL SPEND A LOT OF TIME IN THE CONCERT HALL.
  > * BEHAVIOUR OF THE AGENTS WHEN WALLS ARE ADDED IN THE SYSTEM. AGENTS ATTRACTED TO WALLS BECAUSE THEY CAN LEAN AGAINST IT.
- <br>
- The agent behaviour is based on the work of [Daniel Shiffman](http://natureofcode.com/book/chapter-6-autonomous-agents/)
+
+The agent behaviour is based on the work of [Daniel Shiffman](http://natureofcode.com/book/chapter-6-autonomous-agents/)

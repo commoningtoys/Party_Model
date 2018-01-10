@@ -130,7 +130,7 @@ class Agent {
     if (Agents.size() > 1) {//with this we avoid that a single agents serches himself 
       float dMin = 99999999.0;
       for (int i = 0; i < Agents.size(); i++) {
-        float d = PVector.dist(a.pos, Agents.get(i).pos);// / (a.hood / (Agents.get(i).hood));//check this function for accuracy
+        float d = PVector.dist(a.pos, Agents.get(i).pos) / (a.hood / (Agents.get(i).hood));//check this function for accuracy
         float resultHood = Agents.get(i).hood / a.hood;
         //if(1 > resultHood && 0.99 < resultHood)a.friend = i;
         if (d < dMin && (1 > resultHood && 0.99 < resultHood)) {
